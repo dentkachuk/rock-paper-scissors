@@ -80,27 +80,15 @@ header > h1 {
     display: block;
     width: 200px;
     padding: 25px;
-    background-color: #fff;
+    border: 3px solid #fff;
     border-radius: 50%;
     margin: 10px;
     transition: .5s;
     cursor: pointer;
 }
 
-.choises__item_rock {
-    background-color: #90e5ff;
-}
-.choises__item_paper {
-    background-color: #fffec9;
-}
-.choises__item_scissors {
-    background-color: #ddd;
-}
-
-.choises__item_rock:hover,
-.choises__item_paper:hover,
-.choises__item_scissors:hover {
-    background-color: #fff;
+.choises__item:hover {
+    background-color: #282424;
 }
 
 .choises__item img {
